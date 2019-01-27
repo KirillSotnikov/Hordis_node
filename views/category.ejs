@@ -1,0 +1,106 @@
+<% include blocks/header.ejs %>
+
+
+
+<section class="main_k" style="background:url('/public/img/1.png') center/cover no-repeat">
+    <div class="wrapper_k">
+        <div class="main_k_container">
+            <p class="main_k_container_title">Приватные</p>
+        </div>
+    </div>
+</section>
+<section class="cost_k">
+    <div class="wrapper_k">
+        <div class="cost_k_container">
+            <img src="/public/img/cost.png" alt="" class="cost_k_container_image">
+            <div class="cost_k_container_box">
+                <p class="box_title">Hörmann — ворота, двери, коробки, электроприводы</p>
+                <p class="box_desc">Когда сегодня на рынке строительных элементов идёт речь о воротах, дверях, коробках и приводах, то сразу подразумевается имя Hörmann – ведь именно немецкий концерн Hörmann является крупнейшим в Европе производителем и поставщиком этих изделий.</p>
+                <a href="#" id="go" class="box_btn">Узнать цену</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="property_k">
+    <div class="wrapper_k">
+        <p class="property_k_title">Hormann для частных владений</p>
+        <div class="property_k_container">
+            <a href="/pod-category" data-podcategory="#pod_1" class="property_k_container_box active">
+                <p class="property_k_container_box_text">Гаражные ворота</p>
+                <div class="underline_k"></div>
+            </a>
+            <a href="/pod-category" data-podcategory="#pod_2" class="property_k_container_box">
+                <p class="property_k_container_box_text">Двери</p>
+                <div class="underline_k"></div>
+            </a>
+            <a href="/pod-category" data-podcategory="#pod_3" class="property_k_container_box">
+                <p class="property_k_container_box_text">Приводы</p>
+                <div class="underline_k"></div>
+            </a>
+            <!-- <a class="property_k_container_box">
+                <p class="property_k_container_box_text"></p>
+            </a> -->
+            <div class="property_k_container_bg active" id="pod_1" style="background:url('/public/img/bg_list.png') center/cover no-repeat;"></div>
+            <div class="property_k_container_bg" id="pod_2" style="background:url('/public/img/slide1.png') center/cover no-repeat;"></div>
+            <div class="property_k_container_bg" id="pod_3" style="background:url('/public/img/main_2.jpg') center/cover no-repeat;"></div>
+            <!-- <div class="property_k_container_bg" id="pod_4" style="background:url('/public/img/bg_list.png') center/cover no-repeat;"></div> -->
+        </div>
+        <div class="property_k_slider">
+            <div class="slider">
+                <div class="slide">
+                    <a href="/pod-category" class="box" style="background:url('/public/img/bg_list.png') center/cover no-repeat">
+                        <div class="overlay"></div>
+                        <p class="box_text">Гаражные ворота</p>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="/pod-category" class="box" style="background:url('/public/img/bg_list.png') center/cover no-repeat">
+                        <div class="overlay"></div>
+                        <p class="box_text">Двери</p>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="/pod-category" class="box" style="background:url('/public/img/bg_list.png') center/cover no-repeat">
+                        <div class="overlay"></div>
+                        <p class="box_text">Приводы</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="works_k">
+    <div class="wrapper_k">
+        <div class="works_k_container">
+            <div class="works_k_container_box">
+                <p class="box_title">Наши работы как эталон качества</p>
+                <p class="box_desc">Nasze drzwi drzwi PŁASKIE w systemie RONDO zostały finalistą konkursu organizowanym przez Instytut Wzornictwa Przemysłowego DOBRY WZÓR.</p>
+                <a href="#" class="box_btn">Больше работ</a>
+            </div>
+            <div class="works_k_container_slider">
+                <div class="slider single-item">
+                    <div class="slide">
+                        <div class="bg_image" style="background:url('/public/img/slide_k_1.png') center/cover no-repeat"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="bg_image" style="background:url('/public/img/slide_k_1.png') center/cover no-repeat"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="bg_image" style="background:url('/public/img/slide_k_1.png') center/cover no-repeat"></div>
+                    </div>
+                </div>
+                <div class="slide-count-wrap">
+                    <span class="current"></span> 
+                    /
+                    <span class="total"></span>
+                </div>
+                <a href="#" class="box_btn">Больше работ</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<% include blocks/contacts-form.ejs %>
+<% include blocks/footer-container.ejs %>
+<% include blocks/footer.ejs %>
